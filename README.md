@@ -7,7 +7,27 @@ The core architecture used to achieve this task follows an encoder-decoder archi
 
 <img src="https://github.com/m4556/neural_image_captioning/blob/main/img/encoder-decoder.png" width="1200" >
 
+### Setup
 
-### Dataset
-Download dataset https://www.kaggle.com/dataset/e1cd22253a9b23b073794872bf565648ddbe4f17e7fa9e74766ad3707141adeb
+##### 1. Clone the Repository:  
+git clone https://github.com/m4556/neural_image_captioning.git  
+cd neural_image_captioning
+
+##### 2. (Create a Virtual Environment:) 
+python3 -m venv venv  
+source venv/bin/activate
+
+##### 3. Dataset:
+Download the dataset [flickr8k](https://www.kaggle.com/dataset/e1cd22253a9b23b073794872bf565648ddbe4f17e7fa9e74766ad3707141adeb).
+Place the downloaded dataset in the same folder
+
+##### 4. Install Dependencies:  
+pip install -r requirements.txt
+
+##### 5. Run code: 
+Run below file to start training the model:  
+python train.py 
+
+
+
 
