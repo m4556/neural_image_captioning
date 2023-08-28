@@ -13,9 +13,10 @@ The core architecture used to achieve this task follows an encoder-decoder archi
 git clone https://github.com/m4556/neural_image_captioning.git  
 cd neural_image_captioning
 
-##### 2. (Create a Virtual Environment:) 
-python3 -m venv venv  
-source venv/bin/activate
+##### 2. Create Conda Environment:
+Create and activate the environment using the following commands:  
+conda create --n lang_translation_env  
+conda activate lang_translation_env
 
 ##### 3. Dataset:
 Download the dataset [flickr8k](https://www.kaggle.com/dataset/e1cd22253a9b23b073794872bf565648ddbe4f17e7fa9e74766ad3707141adeb).
